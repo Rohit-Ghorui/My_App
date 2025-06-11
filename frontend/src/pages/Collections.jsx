@@ -80,6 +80,7 @@ const Collections = () => {
                     type="checkbox"
                     value={cat}
                     onChange={handleCategoryChange}
+                    checked={selectedCategories.includes(cat)}
                     className="w-4 h-4"
                   />
                   {cat}
@@ -104,6 +105,7 @@ const Collections = () => {
                     type="checkbox"
                     value={cat}
                     onChange={handleCategoryChange}
+                    checked={selectedCategories.includes(cat)}
                     className="w-4 h-4"
                   />
                   {cat}
