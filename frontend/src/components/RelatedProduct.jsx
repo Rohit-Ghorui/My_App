@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { products } from '../assets/assets'
 import { ShopContext } from '../context/ShopContext'
-import Productitem from './productitem';
+import Productitem from './Productitem';
 import Title from './Title';
 const RelatedProduct = ({category,subCategory}) => {
     const {products} = useContext(ShopContext);
